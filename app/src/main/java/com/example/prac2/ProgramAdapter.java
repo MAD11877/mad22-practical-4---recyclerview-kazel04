@@ -43,16 +43,25 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ViewHold
     public ProgramAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.listitem,parent, false);
+        // can use  if else here aft getItemViewtype shows binary
         ViewHolder viewHolder = new ViewHolder(view);
+        // will be attached to row fr listener
         return viewHolder;
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        // can also return binary val to oncreate
+        return super.getItemViewType(position);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ProgramAdapter.ViewHolder holder, int position) {
         holder.rowName.setText(programNameList[position]);
         holder.rowDescription.setText(programDescriptionList[position]);
-
-
+        //can have access to data in the list (enter event)
+        // can also use onbind to update the view's data (onbind allows access to data)
+        // just add another imageview on the same view id
 
     }
 
@@ -62,4 +71,4 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ViewHold
     }
 }
 
-// Solve formatting problem
+
