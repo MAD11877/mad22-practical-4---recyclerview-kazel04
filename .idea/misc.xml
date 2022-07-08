@@ -3,21 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/KZ/AndroidStudioProjects/Prac23/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.164" />
-        <entry key="..\:/Users/KZ/AndroidStudioProjects/Prac23/app/src/main/res/drawable/ic_launcher_background.xml" value="0.164" />
-        <entry key="..\:/Users/KZ/AndroidStudioProjects/Prac23/app/src/main/res/layout/activity_list.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/KZ/AndroidStudioProjects/Prac23/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/KZ/AndroidStudioProjects/Prac23/app/src/main/res/layout/fragment_item.xml" value="0.12056434373663959" />
-        <entry key="..\:/Users/KZ/AndroidStudioProjects/Prac23/app/src/main/res/layout/fragment_item_list.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/KZ/AndroidStudioProjects/Prac23/app/src/main/res/layout/layout.xml" value="0.17708333333333334" />
-        <entry key="..\:/Users/KZ/AndroidStudioProjects/Prac23/app/src/main/res/layout/listitem.xml" value="0.1" />
+        <entry key="..\:/Users/KZ/AndroidStudioProjects/mad22-practical-3---event-handling-kazel04/app/src/main/res/layout-land/activity_list.xml" value="0.25793650793650796" />
+        <entry key="..\:/Users/KZ/AndroidStudioProjects/mad22-practical-3---event-handling-kazel04/app/src/main/res/layout-land/activity_main.xml" value="0.25793650793650796" />
+        <entry key="..\:/Users/KZ/AndroidStudioProjects/mad22-practical-3---event-handling-kazel04/app/src/main/res/layout/activity_list.xml" value="0.286231884057971" />
+        <entry key="..\:/Users/KZ/AndroidStudioProjects/mad22-practical-3---event-handling-kazel04/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/KZ/AndroidStudioProjects/mad22-practical-3---event-handling-kazel04/app/src/main/res/layout/activity_message_group.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/KZ/AndroidStudioProjects/mad22-practical-3---event-handling-kazel04/app/src/main/res/layout/fragment_group1.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/KZ/AndroidStudioProjects/mad22-practical-3---event-handling-kazel04/app/src/main/res/layout/fragment_message_group.xml" value="0.22330097087378642" />
+        <entry key="..\:/Users/KZ/AndroidStudioProjects/mad22-practical-3---event-handling-kazel04/app/src/main/res/layout/listitems.xml" value="0.286231884057971" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
